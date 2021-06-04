@@ -1,4 +1,5 @@
-const path = require('path')
+import path from 'path'
+const __dirname = path.resolve()
 
 const config = {
   mode: 'production',
@@ -26,7 +27,6 @@ const config = {
     ],
   },
 }
-
 const targetModule = {
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -49,8 +49,7 @@ const targetUmd = {
     libraryTarget: 'umd',
   },
 }
-
-module.exports = [
+export default [
   Object.assign({}, config, targetUmd),
   Object.assign({}, config, targetModule),
 ]

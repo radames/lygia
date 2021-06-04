@@ -1,5 +1,5 @@
 import blend from './blend.glsl'
-import blendModules from './blend'
+import blendModules from './blend/index.js'
 import contrastMatrix from './contrastMatrix.glsl'
 import hueShift from './hueShift.glsl'
 import lut from './lut.glsl'
@@ -12,8 +12,8 @@ import luma from './luma.glsl'
 import daltonize from './daltonize.glsl'
 import palette from './palette.glsl'
 import space from './space.glsl'
-import spaceModules from './space'
-import paletteModules from './palette'
+import spaceModules from './space/index.js'
+import paletteModules from './palette/index.js'
 
 export default {
   blend: Object.assign(blend, blendModules),
