@@ -10,6 +10,7 @@ import polySDF from './polySDF.glsl'
 import rectSDF from './rectSDF.glsl'
 import starSDF from './starSDF.glsl'
 import vesicaSDF from './vesicaSDF.glsl'
+import rhombSDF from './rhombSDF.glsl'
 
 export default {
   circleSDF,
@@ -24,4 +25,5 @@ export default {
   rectSDF,
   starSDF,
   vesicaSDF,
+  rhombSDF,
 }

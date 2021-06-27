@@ -6,6 +6,7 @@ import median from './median.glsl'
 import radialBlur from './radialBlur.glsl'
 import kuwahara from './kuwahara.glsl'
 import noiseBlur from './noiseBlur.glsl'
+import laplacian from './laplacian.glsl'
 
 export default {
   bilateralBlur,
@@ -16,4 +17,5 @@ export default {
   radialBlur,
   kuwahara,
   noiseBlur,
+  laplacian,
 }

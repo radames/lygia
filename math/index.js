@@ -23,6 +23,7 @@ import mix from './mix.glsl'
 import pow5 from './pow5.glsl'
 import rotate4d from './rotate4d.glsl'
 import taylorInvSqrt from './taylorInvSqrt.glsl'
+import absi from './absi.glsl'
 
 export default {
   adaptiveThreshold,
@@ -32,6 +33,7 @@ export default {
   rotate4dX,
   consts,
   map,
+  absi,
   permute,
   powFast,
   rotate4dY,
