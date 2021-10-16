@@ -1,4 +1,3 @@
-#include "../../space/nearest.glsl"
 
 /*
 author: Patricio Gonzalez Vivo

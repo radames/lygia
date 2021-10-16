@@ -21,7 +21,6 @@ license: |
        http://iquilezles.org/www/articles/distfunctions/distfunctions.htm
 */
 
-// #include "checkersGradBox.glsl"
 #include "ao.glsl"
 #include "normal.glsl"
 #include "softShadow.glsl"
