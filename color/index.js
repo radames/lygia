@@ -1,32 +1,16 @@
-import blend from './blend.glsl'
-import blendModules from './blend/index.js'
-import contrastMatrix from './contrastMatrix.glsl'
-import hueShift from './hueShift.glsl'
-import lut from './lut.glsl'
-import vibrance from './vibrance.glsl'
-import saturationMatrix from './saturationMatrix.glsl'
-import brightnessMatrix from './brightnessMatrix.glsl'
-import brightnessContrast from './brightnessContrast.glsl'
-import desaturate from './desaturate.glsl'
-import luma from './luma.glsl'
-import daltonize from './daltonize.glsl'
-import palette from './palette.glsl'
-import space from './space.glsl'
-import spaceModules from './space/index.js'
-import paletteModules from './palette/index.js'
-
-export default {
-  blend: Object.assign(blend, blendModules),
-  contrastMatrix,
-  brightnessContrast,
-  hueShift,
-  lut,
-  saturationMatrix,
-  brightnessMatrix,
-  desaturate,
-  daltonize,
-  luma,
-  vibrance,
-  palette: Object.assign(palette, paletteModules),
-  space: Object.assign(space, spaceModules),
-}
+import { blend } from './blend.js'
+import { brightnessContrast } from './brightnessContrast.js'
+import { brightnessMatrix } from './brightnessMatrix.js'
+import { contrastMatrix } from './contrastMatrix.js'
+import { daltonize } from './daltonize.js'
+import { desaturate } from './desaturate.js'
+import { hueShift } from './hueShift.js'
+import { luma } from './luma.js'
+import { luminance } from './luminance.js'
+import { lut } from './lut.js'
+import { palette } from './palette.js'
+import { saturationMatrix } from './saturationMatrix.js'
+import { space } from './space.js'
+import { tonemap } from './tonemap.js'
+import { vibrance } from './vibrance.js'
+export default { blend, brightnessContrast, brightnessMatrix, contrastMatrix, daltonize, desaturate, hueShift, luma, luminance, lut, palette, saturationMatrix, space, tonemap, vibrance }

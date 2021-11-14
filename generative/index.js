@@ -1,15 +1,10 @@
-import snoise from './snoise.glsl'
-import cnoise from './cnoise.glsl'
-import fbm from './fbm.glsl'
-import noised from './noised.glsl'
-import random from './random.glsl'
-import pnoise from './pnoise.glsl'
-
-export default {
-  snoise,
-  cnoise,
-  fbm,
-  noised,
-  random,
-  pnoise,
-}
+import { cnoise } from './cnoise.js'
+import { curl } from './curl.js'
+import { fbm } from './fbm.js'
+import { gerstnerWave } from './gerstnerWave.js'
+import { gnoise } from './gnoise.js'
+import { noised } from './noised.js'
+import { pnoise } from './pnoise.js'
+import { random } from './random.js'
+import { snoise } from './snoise.js'
+export default { cnoise, curl, fbm, gerstnerWave, gnoise, noised, pnoise, random, snoise }

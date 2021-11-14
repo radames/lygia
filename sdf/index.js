@@ -1,29 +1,39 @@
-import circleSDF from './circleSDF.glsl'
-import flowerSDF from './flowerSDF.glsl'
-import hexSDF from './hexSDF.glsl'
-import raysSDF from './raysSDF.glsl'
-import spiralSDF from './spiralSDF.glsl'
-import triSDF from './triSDF.glsl'
-import crossSDF from './crossSDF.glsl'
-import heartSDF from './heartSDF.glsl'
-import polySDF from './polySDF.glsl'
-import rectSDF from './rectSDF.glsl'
-import starSDF from './starSDF.glsl'
-import vesicaSDF from './vesicaSDF.glsl'
-import rhombSDF from './rhombSDF.glsl'
-
-export default {
-  circleSDF,
-  flowerSDF,
-  hexSDF,
-  raysSDF,
-  spiralSDF,
-  triSDF,
-  crossSDF,
-  heartSDF,
-  polySDF,
-  rectSDF,
-  starSDF,
-  vesicaSDF,
-  rhombSDF,
-}
+import { boxFrameSDF } from './boxFrameSDF.js'
+import { boxSDF } from './boxSDF.js'
+import { capsuleSDF } from './capsuleSDF.js'
+import { circleSDF } from './circleSDF.js'
+import { coneSDF } from './coneSDF.js'
+import { crossSDF } from './crossSDF.js'
+import { cylinderSDF } from './cylinderSDF.js'
+import { ellipsoidSDF } from './ellipsoidSDF.js'
+import { flowerSDF } from './flowerSDF.js'
+import { heartSDF } from './heartSDF.js'
+import { hexPrismSDF } from './hexPrismSDF.js'
+import { hexSDF } from './hexSDF.js'
+import { lineSDF } from './lineSDF.js'
+import { linkSDF } from './linkSDF.js'
+import { octahedronSDF } from './octahedronSDF.js'
+import { octogonPrismSDF } from './octogonPrismSDF.js'
+import { opElongate } from './opElongate.js'
+import { opExtrude } from './opExtrude.js'
+import { opIntersection } from './opIntersection.js'
+import { opOnion } from './opOnion.js'
+import { opRepite } from './opRepite.js'
+import { opRevolve } from './opRevolve.js'
+import { opRound } from './opRound.js'
+import { opSubtraction } from './opSubtraction.js'
+import { opUnion } from './opUnion.js'
+import { planeSDF } from './planeSDF.js'
+import { polySDF } from './polySDF.js'
+import { pyramidSDF } from './pyramidSDF.js'
+import { raysSDF } from './raysSDF.js'
+import { rectSDF } from './rectSDF.js'
+import { rhombSDF } from './rhombSDF.js'
+import { sphereSDF } from './sphereSDF.js'
+import { spiralSDF } from './spiralSDF.js'
+import { starSDF } from './starSDF.js'
+import { torusSDF } from './torusSDF.js'
+import { triPrismSDF } from './triPrismSDF.js'
+import { triSDF } from './triSDF.js'
+import { vesicaSDF } from './vesicaSDF.js'
+export default { boxFrameSDF, boxSDF, capsuleSDF, circleSDF, coneSDF, crossSDF, cylinderSDF, ellipsoidSDF, flowerSDF, heartSDF, hexPrismSDF, hexSDF, lineSDF, linkSDF, octahedronSDF, octogonPrismSDF, opElongate, opExtrude, opIntersection, opOnion, opRepite, opRevolve, opRound, opSubtraction, opUnion, planeSDF, polySDF, pyramidSDF, raysSDF, rectSDF, rhombSDF, sphereSDF, spiralSDF, starSDF, torusSDF, triPrismSDF, triSDF, vesicaSDF }

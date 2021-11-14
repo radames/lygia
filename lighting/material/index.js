@@ -1,0 +1,10 @@
+import { baseColor } from './baseColor.js'
+import { emissive } from './emissive.js'
+import { metallic } from './metallic.js'
+import { material_new } from './material_new.js'
+import { normal } from './normal.js'
+import { occlusion } from './occlusion.js'
+import { roughness } from './roughness.js'
+import { shininess } from './shininess.js'
+import { specular } from './specular.js'
+export default { baseColor, emissive, metallic, material_new, normal, occlusion, roughness, shininess, specular }

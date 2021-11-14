@@ -1,19 +1,12 @@
-import flipY from './flipY.glsl'
-import ratio from './ratio.glsl'
-import rotate from './rotate.glsl'
-import rotateX from './rotateX.glsl'
-import rotateY from './rotateY.glsl'
-import rotateZ from './rotateZ.glsl'
-import scale from './scale.glsl'
-import linearizeDepth from './linearizeDepth.glsl'
-
-export default {
-  flipY,
-  ratio,
-  rotate,
-  rotateX,
-  rotateY,
-  rotateZ,
-  scale,
-  linearizeDepth,
-}
+import { cart2polar } from './cart2polar.js'
+import { flipY } from './flipY.js'
+import { linearizeDepth } from './linearizeDepth.js'
+import { lookAt } from './lookAt.js'
+import { polar2cart } from './polar2cart.js'
+import { ratio } from './ratio.js'
+import { rotate } from './rotate.js'
+import { rotateX } from './rotateX.js'
+import { rotateY } from './rotateY.js'
+import { rotateZ } from './rotateZ.js'
+import { scale } from './scale.js'
+export default { cart2polar, flipY, linearizeDepth, lookAt, polar2cart, ratio, rotate, rotateX, rotateY, rotateZ, scale }

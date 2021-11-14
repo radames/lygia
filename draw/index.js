@@ -1,25 +1,12 @@
-import aastep from './aastep.glsl'
-import bridge from './bridge.glsl'
-import circle from './circle.glsl'
-import cross from './cross.glsl'
-import digits from './digits.glsl'
-import fill from './fill.glsl'
-import flip from './flip.glsl'
-import hex from './hex.glsl'
-import rect from './rect.glsl'
-import stroke from './stroke.glsl'
-import tri from './tri.glsl'
-
-export default {
-  aastep,
-  bridge,
-  circle,
-  cross,
-  digits,
-  fill,
-  flip,
-  hex,
-  rect,
-  stroke,
-  tri,
-}
+import { aastep } from './aastep.js'
+import { bridge } from './bridge.js'
+import { circle } from './circle.js'
+import { cross } from './cross.js'
+import { digits } from './digits.js'
+import { fill } from './fill.js'
+import { flip } from './flip.js'
+import { hex } from './hex.js'
+import { rect } from './rect.js'
+import { stroke } from './stroke.js'
+import { tri } from './tri.js'
+export default { aastep, bridge, circle, cross, digits, fill, flip, hex, rect, stroke, tri }

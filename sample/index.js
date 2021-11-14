@@ -1,9 +1,9 @@
-import textureDof from './textureDoF.glsl'
-import textureQuilt from './textureQuilt.glsl'
-import textureShadow from './textureShadow.glsl'
-
-export default {
-  textureDof,
-  textureQuilt,
-  textureShadow,
-}
+import { textureDoF } from './textureDoF.js'
+import { textureFlow } from './textureFlow.js'
+import { textureNormal } from './textureNormal.js'
+import { textureQuilt } from './textureQuilt.js'
+import { textureShadow } from './textureShadow.js'
+import { textureShadowLerp } from './textureShadowLerp.js'
+import { textureShadowPCF } from './textureShadowPCF.js'
+import { textureYUV } from './textureYUV.js'
+export default { textureDoF, textureFlow, textureNormal, textureQuilt, textureShadow, textureShadowLerp, textureShadowPCF, textureYUV }

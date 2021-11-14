@@ -1,51 +1,25 @@
-import add from './add.glsl'
-import colorDodge from './colorDodge.glsl'
-import exclusion from './exclusion.glsl'
-import hardMix from './hardMix.glsl'
-import linearDodge from './linearDodge.glsl'
-import negation from './negation.glsl'
-import pinLight from './pinLight.glsl'
-import softLight from './softLight.glsl'
-import average from './average.glsl'
-import darken from './darken.glsl'
-import glow from './glow.glsl'
-import lighten from './lighten.glsl'
-import linearLight from './linearLight.glsl'
-import overlay from './overlay.glsl'
-import reflect from './reflect.glsl'
-import subtract from './subtract.glsl'
-import colorBurn from './colorBurn.glsl'
-import difference from './difference.glsl'
-import hardLight from './hardLight.glsl'
-import linearBurn from './linearBurn.glsl'
-import multiply from './multiply.glsl'
-import phoenix from './phoenix.glsl'
-import screen from './screen.glsl'
-import vividLight from './vividLight.glsl'
-
-export default {
-  add,
-  colorDodge,
-  exclusion,
-  hardMix,
-  linearDodge,
-  negation,
-  pinLight,
-  softLight,
-  average,
-  darken,
-  glow,
-  lighten,
-  linearLight,
-  overlay,
-  reflect,
-  subtract,
-  colorBurn,
-  difference,
-  hardLight,
-  linearBurn,
-  multiply,
-  phoenix,
-  screen,
-  vividLight,
-}
+import { add } from './add.js'
+import { average } from './average.js'
+import { colorBurn } from './colorBurn.js'
+import { colorDodge } from './colorDodge.js'
+import { darken } from './darken.js'
+import { difference } from './difference.js'
+import { exclusion } from './exclusion.js'
+import { glow } from './glow.js'
+import { hardLight } from './hardLight.js'
+import { hardMix } from './hardMix.js'
+import { lighten } from './lighten.js'
+import { linearBurn } from './linearBurn.js'
+import { linearDodge } from './linearDodge.js'
+import { linearLight } from './linearLight.js'
+import { multiply } from './multiply.js'
+import { negation } from './negation.js'
+import { overlay } from './overlay.js'
+import { phoenix } from './phoenix.js'
+import { pinLight } from './pinLight.js'
+import { reflect } from './reflect.js'
+import { screen } from './screen.js'
+import { softLight } from './softLight.js'
+import { subtract } from './subtract.js'
+import { vividLight } from './vividLight.js'
+export default { add, average, colorBurn, colorDodge, darken, difference, exclusion, glow, hardLight, hardMix, lighten, linearBurn, linearDodge, linearLight, multiply, negation, overlay, phoenix, pinLight, reflect, screen, softLight, subtract, vividLight }

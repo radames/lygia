@@ -1,25 +1,12 @@
-import back from './back.glsl'
-import circular from './circular.glsl'
-import elastic from './elastic.glsl'
-import linear from './linear.glsl'
-import quartic from './quartic.glsl'
-import sine from './sine.glsl'
-import bounce from './bounce.glsl'
-import cubic from './cubic.glsl'
-import exponential from './exponential.glsl'
-import quadratic from './quadratic.glsl'
-import quintic from './quintic.glsl'
-
-export default {
-  back,
-  circular,
-  elastic,
-  linear,
-  quartic,
-  sine,
-  bounce,
-  cubic,
-  exponential,
-  quadratic,
-  quintic,
-}
+import { back } from './back.js'
+import { bounce } from './bounce.js'
+import { circular } from './circular.js'
+import { cubic } from './cubic.js'
+import { elastic } from './elastic.js'
+import { exponential } from './exponential.js'
+import { linear } from './linear.js'
+import { quadratic } from './quadratic.js'
+import { quartic } from './quartic.js'
+import { quintic } from './quintic.js'
+import { sine } from './sine.js'
+export default { back, bounce, circular, cubic, elastic, exponential, linear, quadratic, quartic, quintic, sine }

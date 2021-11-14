@@ -1,21 +1,13 @@
-import bilateralBlur from './bilateralBlur.glsl'
-import boxBlur from './boxBlur.glsl'
-import gaussianBlur from './gaussianBlur.glsl'
-import mean from './mean.glsl'
-import median from './median.glsl'
-import radialBlur from './radialBlur.glsl'
-import kuwahara from './kuwahara.glsl'
-import noiseBlur from './noiseBlur.glsl'
-import laplacian from './laplacian.glsl'
-
-export default {
-  bilateralBlur,
-  boxBlur,
-  gaussianBlur,
-  mean,
-  median,
-  radialBlur,
-  kuwahara,
-  noiseBlur,
-  laplacian,
-}
+import { bilateralBlur } from './bilateralBlur.js'
+import { boxBlur } from './boxBlur.js'
+import { convolutionPyramid } from './convolutionPyramid.js'
+import { edge } from './edge.js'
+import { gaussianBlur } from './gaussianBlur.js'
+import { kuwahara } from './kuwahara.js'
+import { laplacian } from './laplacian.js'
+import { mean } from './mean.js'
+import { median } from './median.js'
+import { noiseBlur } from './noiseBlur.js'
+import { radialBlur } from './radialBlur.js'
+import { sharpen } from './sharpen.js'
+export default { bilateralBlur, boxBlur, convolutionPyramid, edge, gaussianBlur, kuwahara, laplacian, mean, median, noiseBlur, radialBlur, sharpen }

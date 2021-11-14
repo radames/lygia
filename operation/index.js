@@ -1,3 +1,3 @@
-import normalMap from './normalMap.glsl'
-
-export default { normalMap }
+import { densify } from './densify.js'
+import { normalMap } from './normalMap.js'
+export default { densify, normalMap }
