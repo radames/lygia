@@ -10,7 +10,7 @@ license: |
 
 #ifndef STR_MATERIAL
 #define STR_MATERIAL
-struct material {
+struct Material {
     vec4    baseColor;
     vec3    emissive;
     vec3    normal;
